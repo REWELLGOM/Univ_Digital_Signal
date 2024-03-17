@@ -44,10 +44,42 @@ print(MyList[0][2][3])
 print(MyList[-2][-1][-3])
 print(MyList[-2][-1][-1])
 """
+"""
 
 myList = [100,200,300]
 myList[1] = 2
 print(myList)
+"""
 
+myList = [100,200,300,400,500]
+"""
+del myList[-1]
+print(myList)
+"""
+"""
+del myList[2:4]
+print(myList)
 
+"""
+"""
+del myList[1:]
+print(myList)
+"""
+"""
+del myList[:3]
+print(myList)
+"""
+"""
+del myList[:]
+print(myList)
+"""
 
+myList = []
+myList.append(0)
+myList.append(10)
+myList.append(20)
+myList.append(50)
+myList.append(30)
+myList.append(40)
+myList.insert(2,-100)
+print(myList)
