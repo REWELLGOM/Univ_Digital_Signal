@@ -42,21 +42,23 @@ else:
     print("폭염주의보가 아닙니다")
 """
 """
+
 grade = int(input("점수를 입력하시오: "))
 
 if grade>=90:
     score = 'A'
-elif grade >= 80 | grade <= 89 :
+elif grade >= 80 and grade <= 89 :
     score = 'B'
-elif grade >= 70 | grade <= 79:
+elif grade >= 70 and grade <= 79:
     scroe = 'C'
-elif grade >= 60 | grade <=69:
+elif grade >= 60 and grade <=69:
     score = 'D'
 else:
     score = 'F'
 
 print(score)
 """
+
 """
 x = int(input())
 y = int(input())
@@ -77,9 +79,46 @@ else:
     y = y + 10
 print(x,",",y)
 """
+"""
+a = float(input("첫번째 실수값을 입력하시오: "))
+b = float(input("두번째 실수값을 입력하시오: "))
+c = float(input("세번째 실수값을 입력하시오: "))
 
+if a > 3 and b < 1000 and c == 100:
+    result = (a+b+c)/3
+    print("결과: ", result)
+else:
+    print("결과를 산출할 수 없습니다")
+"""
+"""
+a = int(input())
+b = int(input())
 
+if a > 0:
+    c = b*2*a
+else:
+    c = b*3*a+1
+print(a,b)
+print(c)
+"""
+"""
 
+food = input("좋아하는 음식은 무엇인가요? ")
 
+if food == "김치찌개":
+    print("주재료: 김치")
+elif food == "콩나물국박":
+    print("주재료: 콩나물")
+elif food == "된장찌개":
+    print("주재료: 된장")
+"""
+
+num = int(input("숫자 입력: "))
+if num > 0:
+    print("양수")
+elif num <0:
+    print("음수")
+else:
+    print("0")
 
 
