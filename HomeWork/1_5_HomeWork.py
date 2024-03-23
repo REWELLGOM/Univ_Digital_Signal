@@ -129,3 +129,75 @@ for a in range(2):
     for b in range(10,15):
         print("안녕")
 """
+
+"""
+i = 1
+while i <10:
+    for j in range(1,10):
+        print(i , "x" , j , "=" ,(i*j))
+        print()
+    i+=1
+"""
+
+"""
+start = int(input("시작 정수값을 입력하시오: "))
+end = int(input("끝 정수값을 입력하시오: "))
+while(start < end):
+    print(start)
+    start = start + 1
+"""
+"""
+import math
+s = 0
+for i in range(1, 11):
+    s += math.pow(i, 2)
+print(s)
+"""
+"""
+import math
+s = 0
+i = 1
+while(i < 11):
+    s += math.pow(i,2)
+    i = i + 1
+print(s)
+"""
+"""
+import math
+s = 0
+for i in range(0, 31, 3):
+    s = s + math.sqrt(i)
+print(s)
+"""
+
+"""
+N = int(input("N 정수를 입력하시오: "))
+M = int(input("M 정수를 입력하시오: "))
+i = 0
+sum1 = 0
+sum2 = 0
+myList = []
+myList2 = []
+if( N < M ):
+    for i in range(N,M+1):
+        if(i % 2 == 0):
+            myList.append(i)
+            sum1 += i
+        if(i % 3 == 0):
+            myList2.append(i)
+            sum2 += i
+        i = i + 1
+print(myList)
+print(myList2)
+print("2배는 ", len(myList),"합은: ",sum1, "3배는 ", len(myList2), "합은: ",sum2)
+"""
+
+
+n = input("입력: ")
+print("출력:", n[::-1])
+
+
+
+
+
+
