@@ -114,9 +114,10 @@ avg = total / 5
 print("총합: ", total, " 평균", avg)
 """
 
-#문제1 9
-#문제2 5
-#문제3 12녕
+
+#문제1 4
+#문제2 4
+#문제3 10
 
 
 """
@@ -129,6 +130,7 @@ for a in range(2):
     for b in range(10,15):
         print("안녕")
 """
+
 
 """
 i = 1
@@ -192,12 +194,20 @@ print(myList2)
 print("2배는 ", len(myList),"합은: ",sum1, "3배는 ", len(myList2), "합은: ",sum2)
 """
 
+"""
 
 n = input("입력: ")
 print("출력:", n[::-1])
+"""
 
-
-
-
-
-
+"""
+i = 1
+while i < 6:  
+    j = 0
+    while j < i:  
+        print(i," ", end='')  
+        j += 1
+    print()  
+    i += 1
+print() 
+"""
