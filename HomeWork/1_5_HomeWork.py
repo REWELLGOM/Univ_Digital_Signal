@@ -211,3 +211,9 @@ while i < 6:
     i += 1
 print() 
 """
+
+height = float(input("Input your height(cm):"))
+standartd_weight = (height-100)*0.9
+print("Standard weight: ",standartd_weight)
+print("Over-weight standards: ", standartd_weight*1.2)
+print("Low-weight standards: ", standartd_weight*0.8)
