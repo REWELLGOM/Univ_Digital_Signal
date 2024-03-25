@@ -22,3 +22,4 @@ a = [4,5,62,1,3,4]
 b = sorted(a,reverse=False)
 print(b)
 
+# static int a 할때 static은 프로그램이 종료되도 유지됨 그 코드 블럭 {} 이거 안에서만 사용가능
