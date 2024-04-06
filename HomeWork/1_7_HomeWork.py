@@ -87,6 +87,18 @@
 # print(odd(4,5,7,9,10,11,12,16,19))
 
 
-def print_n_times(n):
-    for _ in range(n):
-        print('Hi')
+# def print_n_times(n):
+#     for _ in range(n):
+#         print('Hi')
+
+# dict_cnt = {}
+# num1 = input()
+# if num1.isdecimal() and int(num1)>0:
+#     for i in range(10):
+#         dict_cnt.setdefault(str(i),0)
+
+a = [1,2,3,4]
+b = a
+b[3] = 100
+print(a)
+print(b)
